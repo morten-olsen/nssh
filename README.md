@@ -7,7 +7,7 @@ Optinally the hosts `.npmrc` and `.yarnrc` can be exposed as read-only to the sa
 
 ## Usage
 
-````
+```
 - RC=1 ns.sh yarn install
 - ENV=\"NODE_ENV\" ns.sh npm run build
 - PORTS=\"80,445\" ns.sh node ./src/server.js
